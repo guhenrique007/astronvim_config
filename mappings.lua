@@ -19,7 +19,12 @@ return {
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
-    -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    
+    -- Moving
+    ["<leader>j"] = { "J", desc = "Join line below" },
+    ["J"] = {"5j", desc = "Jump 5 lines for j"},
+    ["K"] = {"5k", desc = "Jump 5 lines for k"}
   },
   t = {
     -- setting a mapping to false will disable it
