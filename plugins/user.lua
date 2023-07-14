@@ -9,4 +9,6 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {"kana/vim-textobj-user", lazy = false},
+  {"kana/vim-textobj-entire", lazy = false}
 }
