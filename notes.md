@@ -2,5 +2,5 @@
 :TS<tab> 
 :LSP<tab>
 
-
-:LspInstall
+Install LSP, DAP, formatter,linter
+:LspInstall or :Mason
