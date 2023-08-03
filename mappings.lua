@@ -24,7 +24,9 @@ return {
     -- Moving
     ["<leader>j"] = { "J", desc = "Join line below" },
     ["J"] = {"5j", desc = "Jump 5 lines for j"},
-    ["K"] = {"5k", desc = "Jump 5 lines for k"}
+    ["K"] = {"5k", desc = "Jump 5 lines for k"},
+    ["<A-j>"] = { ":m+", desc = "Move to line below"},
+    ["<A-k>"] = { ":m-2", desc = "Move to line above"}
   },
   t = {
     -- setting a mapping to false will disable it
