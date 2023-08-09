@@ -25,8 +25,10 @@ return {
     ["<leader>j"] = { "J", desc = "Join line below" },
     ["J"] = {"5j", desc = "Jump 5 lines for j"},
     ["K"] = {"5k", desc = "Jump 5 lines for k"},
-    ["<A-j>"] = { ":m+", desc = "Move to line below"},
-    ["<A-k>"] = { ":m-2", desc = "Move to line above"}
+    ["<A-j>"] = { ":m+<cr>", desc = "Move to line below"}, -- need to enable alt key (MacOS)
+    ["<A-k>"] = { ":m-2<cr>", desc = "Move to line above"}, -- need to enable alt key
+    ["<M-j>"] = { ":m+<cr>", desc = "Move to line below"}, -- need to enable alt key
+    ["<M-k>"] = { ":m-2<cr>", desc = "Move to line above"}, -- need to enable alt key
   },
   t = {
     -- setting a mapping to false will disable it
