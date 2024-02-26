@@ -29,6 +29,8 @@ return {
     ["<A-k>"] = { ":m-2<cr>", desc = "Move to line above"}, -- need to enable alt key
     ["<M-j>"] = { ":m+<cr>", desc = "Move to line below"}, -- need to enable alt key
     ["<M-k>"] = { ":m-2<cr>", desc = "Move to line above"}, -- need to enable alt key
+    ["<leader>l"] = {"$", desc = "go to end of line"},
+    ["<leader>h"] = {"_", desc = "go to start of line"}
   },
   t = {
     -- setting a mapping to false will disable it
