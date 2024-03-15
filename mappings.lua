@@ -30,7 +30,11 @@ return {
     ["<M-j>"] = { ":m+<cr>", desc = "Move to line below"}, -- need to enable alt key
     ["<M-k>"] = { ":m-2<cr>", desc = "Move to line above"}, -- need to enable alt key
     ["<leader>l"] = {"$", desc = "go to end of line"},
-    ["<leader>h"] = {"_", desc = "go to start of line"}
+    ["<leader>h"] = {"_", desc = "go to start of line"},
+
+    -- Split window
+    ["<leader>v"] = { ":vs<cr>", desc = "Vertical Split"},
+    ["<leader>s"] = { ":sp<cr>", desc = "Horizontal Split"}
   },
   t = {
     -- setting a mapping to false will disable it
