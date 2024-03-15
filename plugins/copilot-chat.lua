@@ -18,38 +18,38 @@ return {
   end,
   event = "VeryLazy",
   keys = {
-    { "<leader>çb", ":CopilotChatBuffer ", desc = "CopilotChat - Chat with current buffer" },
-    { "<leader>çe", "<cmd>CopilotChatExplain<cr>", desc = "CopilotChat - Explain code" },
-    { "<leader>çt", "<cmd>CopilotChatTests<cr>", desc = "CopilotChat - Generate tests" },
+    { "<leader>xb", ":CopilotChatBuffer ", desc = "CopilotChat - Chat with current buffer" },
+    { "<leader>xe", "<cmd>CopilotChatExplain<cr>", desc = "CopilotChat - Explain code" },
+    { "<leader>xt", "<cmd>CopilotChatTests<cr>", desc = "CopilotChat - Generate tests" },
     {
-      "<leader>çT",
+      "<leader>xT",
       "<cmd>CopilotChatVsplitToggle<cr>",
       desc = "CopilotChat - Toggle Vsplit", -- Toggle vertical split
     },
     {
-      "<leader>çv",
+      "<leader>xv",
       ":CopilotChatVisual ",
       mode = "x",
       desc = "CopilotChat - Open in vertical split",
     },
     {
-      "<leader>çx",
+      "<leader>xx",
       ":CopilotChatInPlace<cr>",
       mode = "x",
       desc = "CopilotChat - Run in-place code",
     },
     {
-      "<leader>çf",
+      "<leader>xf",
       "<cmd>CopilotChatFixDiagnostic<cr>", -- Get a fix for the diagnostic message under the cursor.
       desc = "CopilotChat - Fix diagnostic",
     },
     {
-      "<leader>çr",
+      "<leader>xr",
       "<cmd>CopilotChatReset<cr>", -- Reset chat history and clear buffer.
       desc = "CopilotChat - Reset chat history and clear buffer",
     },
     {
-      "<leader>ço",
+      "<leader>xo",
       "<cmd>CopilotChatBuffer  /COPILOT_REFACTOR Optimize the selected code to improve performance and readablilty.<cr>",
       desc = "CopilotChat - Optimize the selected code to improve performance and readablilty.",
     }  
