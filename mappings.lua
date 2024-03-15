@@ -18,8 +18,14 @@ return {
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
+    ["<leader>x"] = { name = "Copilot Chat"},
+
     -- quick save
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    
+    -- Disable global mappings
+    ["|"] = {""},
+    ["\\"] = {""},
     
     -- Moving
     ["<leader>j"] = { "J", desc = "Join line below" },
@@ -35,6 +41,7 @@ return {
     -- Split window
     ["<leader>v"] = { ":vs<cr>", desc = "Vertical Split"},
     ["<leader>s"] = { ":sp<cr>", desc = "Horizontal Split"}
+
   },
   t = {
     -- setting a mapping to false will disable it
