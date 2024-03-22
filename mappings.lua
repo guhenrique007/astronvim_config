@@ -40,8 +40,17 @@ return {
 
     -- Split window
     ["<leader>v"] = { ":vs<cr>", desc = "Vertical Split"},
-    ["<leader>s"] = { ":sp<cr>", desc = "Horizontal Split"}
+    ["<leader>s"] = { ":sp<cr>", desc = "Horizontal Split"},
 
+    -- Disable yank-on-delete
+    ["dd"] = {"\"_dd"},
+    ["D"] = {"\"_D"},
+    ["cc"] = {"\"_cc"},
+    ["C"] = {"\"_C"},
+  },
+  v = {
+    ["c"] = {"\"_c"},
+    ["d"] = {"\"_d"},
   },
   t = {
     -- setting a mapping to false will disable it
